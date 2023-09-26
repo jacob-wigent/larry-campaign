@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+}
+
+/*    NAV     */
+
+/* nav.navbar {
+    height: 58px;
+    background-color: #fff;
+} */
+
+/*     HERO    */
+
+header.hero {
+    background: linear-gradient(270deg, rgba(7, 44, 176, 0.00) 3.34%, #0D2372 97.41%), url('../Assets/background.jpg'), lightgray 50%;
+    background-position: center;
+    background-size: cover;
+    height: 100dvh;
+}
+
+.hero img.portrait {
+    height: 95%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.hero .text {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero .text hr {
+    margin: auto;
+    margin-bottom: 28px;
+}
+
+.hero .text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    margin-bottom: 6px;
+}
+
+.hero .text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 0.8px;
+}
+
+.hero .text h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.8px;
+    margin-bottom: 4px
+}
+
+.hero .text hr {
+    width: 148px;
+    border-color: #E0433A;
+    border-width: 6px;
+    border-style: solid;
+}
+
+@media only screen and (max-width: 1030px) {
+
+    header.hero {
+        height: fit-content;
+    }
+
+    .hero .text {
+        position: static;
+        width: 100%;
+        transform: initial;
+        padding-top: 15vh;
+    }
+
+    .hero img.portrait {
+        width: 100%;
+        height: initial;
+        position: static;
+        margin-top: 10vh;
+    }
+
+}
